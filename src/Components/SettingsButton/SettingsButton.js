@@ -6,7 +6,7 @@ function SettingsButton() {
    
   return (
       <>
-      <button ><FiSettings style={{ width: 35, height: 35 }}/></button>
+      <button className='settings-button' ><FiSettings style={{ width: 35, height: 35 }}/></button>
      
       </>
 )};

@@ -3,10 +3,13 @@ main{
 }
 
 button{
-    color: black;
+    /* color: black; */
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+*{
+    background-color: #30384b;
 }
