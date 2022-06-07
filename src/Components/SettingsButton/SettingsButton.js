@@ -1,12 +1,13 @@
 import './SettingsButton.scss'
 import { FiSettings } from 'react-icons/fi';
-import  Modal  from '../Modal/Modal';
+
 
 function SettingsButton() {
+   
   return (
       <>
-      <button><FiSettings/></button>
-      <Modal/>
+      <button ><FiSettings style={{ width: 35, height: 35 }}/></button>
+     
       </>
 )};
 
